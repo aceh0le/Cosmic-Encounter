@@ -20,6 +20,19 @@ void DarkGDK(void)
 	dbSyncOn  ();
 	dbSyncRate(60);
 
+	//initialise game
+	//..
+
+
+	//debug initialise space
+	Space space;
+	space.createPlanet(0, 0, 100,100);
+
+	//debug intiialise grid
+
+	//debug initialise buildings
+
+
 	while(LoopGDK())
 	{	
 		

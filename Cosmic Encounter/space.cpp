@@ -15,8 +15,9 @@ Space::~Space()
 }
 
 
-std::string		 Space::getName		()
+void			 createPlanet			(unsigned int ID, unsigned int SpriteID, int x, int y)
 {
 	
-	return "";
+	
+	
 }

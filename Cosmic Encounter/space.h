@@ -13,7 +13,7 @@ class Space
 		 Space();
 		~Space();
 
-		std::string		getName		(void);
+		void			 createPlanet			(unsigned int ID, unsigned int SpriteID, int x, int y);
 	
 };
 
